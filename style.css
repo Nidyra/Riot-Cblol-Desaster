@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#header {
+    background-color: rgb(255, 0, 0);
+    padding: 30px 0px 7pc 0px;
+    
+}
+
+h1, h2, p {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+#headerTitle {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+#headerTitle h2{
+    margin-top: 7px;
+    font-size: 25px;
+}  
+
+#content {
+    text-align: center;
+}
+
+#contentText h1 {
+    padding-top: 65px;
+    font-weight: bolder;
+    font-size: 57px;
+    margin-bottom: 90px;
+}
+
+#contentText p {
+    font-size: 25px;
+    padding: 0px 90px 0px 90px;
+}
+
+#winRate {
+    padding-top: 110px;
+    margin-top: 94px;
+    background-image: url(img/summonersriftart.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+}
+
+#winRateText {
+    background-color: white;
+    text-align: center;
+    margin: 0px 200px 0px 200px;
+    border-radius: 7px;
+}
+
+#winRateText h1 {
+    padding: 70px 0px 0px 0px;
+    font-size: 50px;
+    margin-bottom: 54px;
+    font-weight: bolder;
+}
+
+#winRateText p {
+    font-size: 25px;
+    padding: 0px 90px 0px 90px;
+}
+
+#winRateText img {
+    border-radius: 15px;
+    margin-top:65px;
+    transition: 0.5s;
+    
+}
+
+#winRateText img:hover {
+    transform: scale(1.2);
+    
+} 
