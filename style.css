@@ -20,7 +20,7 @@ h1, h2, p {
 
 
 #headerTitle {
-    font-size: 35px;
+    font-size: 60px;
     text-align: center;
     margin-top: 50px;
     color: rgb(255, 255, 255);
@@ -88,3 +88,30 @@ h1, h2, p {
     transform: scale(1.2);
     
 } 
+
+@media only screen and (max-width: 600px) {
+    #headerTitle h1 {
+        font-size: 90px;
+    }
+
+    #contentText p {
+        padding: 0px;
+    }
+
+    #winRateText {
+        margin: 23px;
+    }
+
+    #winRateText p {
+        padding: 13px;
+    }
+
+    #winRateText img {
+        width: 340px;
+        transition: 0;
+    }
+
+    #winRateText img:hover {
+        transform: scale(1);
+    }
+}
